@@ -4,8 +4,6 @@
 <dict>
 	<key>CFBundleIdentifier</key>
 	<string>com.akvelon.andreishilkin.appcenter.sasquatchswift</string>
-	<key>CFBundleVersion</key>
-	<string>1.9.1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
@@ -77,6 +75,8 @@
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Select photo for attachment</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.9.1</string>
+	<string>1.9.8</string>
+	<key>CFBundleVersion</key>
+	<string>5</string>
 </dict>
 </plist>

@@ -17,7 +17,7 @@ namespace Contoso.Forms.Demo
 
         const string uwpKey = "5bce20c8-f00b-49ca-8580-7a49d5705d4c";
         const string androidKey = "987b5941-4fac-4968-933e-98a7ff29237c";
-        const string iosKey = "a2a5be30-1991-43c7-afc2-1121fd60085f";
+        const string iosKey = "c2b666b1-6fe1-485e-bfdb-e9992ed18f9a";
 
         public App()
         {
@@ -29,9 +29,9 @@ namespace Contoso.Forms.Demo
         {
             if (!AppCenter.Configured)
             {
-                AppCenter.SetLogUrl("https://in-integration.dev.avalanch.es");
-                Distribute.SetInstallUrl("https://install.asgard-int.trafficmanager.net");
-                Distribute.SetApiUrl("https://appcenter-int.trafficmanager.net/api/v0.1");
+                // AppCenter.SetLogUrl("https://in-integration.dev.avalanch.es");
+                // Distribute.SetInstallUrl("https://install.asgard-int.trafficmanager.net");
+                // Distribute.SetApiUrl("https://appcenter-int.trafficmanager.net/api/v0.1");
                 AppCenter.LogLevel = LogLevel.Verbose;
                 Crashes.SendingErrorReport += SendingErrorReportHandler;
                 Crashes.SendingErrorReport += SendingErrorReportHandler;
