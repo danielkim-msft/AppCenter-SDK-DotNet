@@ -29,9 +29,9 @@ namespace Contoso.Forms.Demo
         {
             if (!AppCenter.Configured)
             {
-                AppCenter.SetLogUrl("https://in-integration.dev.avalanch.es");
-                Distribute.SetInstallUrl("https://install.asgard-int.trafficmanager.net");
-                Distribute.SetApiUrl("https://appcenter-int.trafficmanager.net/api/v0.1");
+                //AppCenter.SetLogUrl("https://in-integration.dev.avalanch.es");
+                //Distribute.SetInstallUrl("https://install.asgard-int.trafficmanager.net");
+                //Distribute.SetApiUrl("https://appcenter-int.trafficmanager.net/api/v0.1");
                 AppCenter.LogLevel = LogLevel.Verbose;
                 Crashes.SendingErrorReport += SendingErrorReportHandler;
                 Crashes.SendingErrorReport += SendingErrorReportHandler;
