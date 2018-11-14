@@ -17,7 +17,7 @@ namespace Contoso.Forms.Demo
 
         const string uwpKey = "5bce20c8-f00b-49ca-8580-7a49d5705d4c";
         const string androidKey = "987b5941-4fac-4968-933e-98a7ff29237c";
-        const string iosKey = "fe2bf05d-f4f9-48a6-83d9-ea8033fbb644";
+        const string iosKey = "f9bea633-5348-4bb7-92cb-6f4792f611df";
 
         public App()
         {
