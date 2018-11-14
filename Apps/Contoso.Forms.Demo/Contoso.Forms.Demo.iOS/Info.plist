@@ -75,8 +75,8 @@
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Select photo for attachment</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.9.8</string>
+	<string>1.9.9</string>
 	<key>CFBundleVersion</key>
-	<string>5</string>
+	<string>6</string>
 </dict>
 </plist>
